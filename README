@@ -1,0 +1,13 @@
+This is the program for slicing on 3D printer.
+We have many applications working on slicing from open-source, but most of them are not good enough to do the real work.
+Some just take too much time on computing, some are not able to handle with models which are too big.
+This program has been optimized on many parts. Compared with MatterControl, which is the well known open-source software working on 3D printer, this program can do the same job 30 times faster and won't crash.
+
+This program can handle with both ASCII and binary STL files.
+
+Even it can work faster and more stable, there is still some work need to do.
+We don't implement the support matter function in it, which itself can be another project.
+And we don't have the User Interface for it.
+
+User have to built it up by Makefile in Linux, run the executable file with the stl file as the input parameter, or it will use the default input file.
+And the input file has to be stored in "stl_files/", and the gcode file will be output into "gcode_files/".

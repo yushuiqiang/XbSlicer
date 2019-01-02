@@ -1,0 +1,11 @@
+*.o
+*~
+*.out
+!stl_files/
+!gcode_files/
+!stl_files/*.stl
+!stl_files/*.stlb
+!stl_files/*.bif
+gcode_files/*.gcode
+xbslicer
+xbslicer_unopt
